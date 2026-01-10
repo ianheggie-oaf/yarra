@@ -70,6 +70,7 @@ while page_no < 100
 
   unless next_page_link
     puts "Finished - no Next page"
+    puts page.body
     break
   end
 
